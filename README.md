@@ -1,20 +1,20 @@
 # angular-node-login-logout v.0.1
 
-### Express 4.6 + Angular 8 (Single page application) Simple login logout pages
+### [Express 4.6] + [Angular 8] (Single page application) Simple login logout pages
 
 ## Pre-request
 - Node 10+
 
 ## QuickStart (prod run)
 - clone repositery
-- npm install 
-- run the app: npm start (angular build to 'dist' folder)
+- [npm install]
+- run the app: [npm start] (angular build to 'dist' folder)
 
 
 ## Angular developement (dev environment only) 
 - cd angular
-- run angular-cli command: ng serve
-- run express server: npm start
+- run angular-cli command: [ng serve]
+- run express server: [npm start]
 
 ## Architecture
 
