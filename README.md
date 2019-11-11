@@ -19,32 +19,32 @@
 ## Architecture
 
 # Express/Node server
--> app.js
--> controller
-    -> user_controller  
--> service
-    -> user_service (class for user lookup)
--> routes 
+- app.js
+- controller
+    - user_controller  
+- service
+    - user_service (class for user lookup)
+- routes 
     - user.routes 
--> dist (angular production files)
--> angular (angular src)
--> bin
+- dist (angular production files)
+- angular (angular src)
+- bin
 
 
 # Angular
 
--> src
-    -> app
-        -> data_model (contain interface/class/enum model)
-        -> guard (routing guard)
-        -> login (component/page)
-        -> private (user dashboard)
-        -> service
-            -> auth.service (authenticate user/ http call)
-            -> toast.service (success/failure message)
-        -> toast (component to show toast in UI)
-        -> welcome (component/page)
-    -> app.component
-    -> app.routing
+- src
+    - app
+        - data_model (contain interface/class/enum model)
+        - guard (routing guard)
+        - login (component/page)
+        - private (user dashboard)
+        - service
+            - auth.service (authenticate user/ http call)
+            - toast.service (success/failure message)
+        - toast (component to show toast in UI)
+        - welcome (component/page)
+    - app.component
+    - app.routing
 
 
