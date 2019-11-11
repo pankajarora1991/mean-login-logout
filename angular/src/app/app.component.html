@@ -1,0 +1,13 @@
+    <!-- Start Header -->
+    <header>
+      <nav class="navbar">
+        <span class="navbar-brand" href="#">Login/Logout Workflow</span>
+        <span  class="navbar-status">User Status : {{user.status || "LOGGED OUT"}} </span>
+      </nav>
+    </header>
+    <!-- End Header -->
+
+    <div class="primary-section">
+      <app-toast></app-toast>
+      <router-outlet></router-outlet>
+    </div>

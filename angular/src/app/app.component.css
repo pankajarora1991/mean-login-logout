@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+	min-height: 100vh;
+	padding-bottom: 60px;
+	position: relative;
+}
+header .navbar{
+	background-color: #4f7c3d;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+	text-align: center;
+	padding: .1rem 1rem;
+}
+
+header .navbar-brand{
+	display: inline-block;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+header .navbar-status{
+  color: #ffffff;
+}
+
+.primary-section{
+	padding: 50px 0;
+	background: #ffffff;
+}
+
+.intro-block{
+	padding: 20px 0 10px 0;
+}
